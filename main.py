@@ -22,10 +22,6 @@ while quiz.still_has_questions():
 print('You\'ve completed the quiz.')
 print(f'Your final score is: {quiz.user_score}/{quiz.current_question_number}')
 
-# NOTE: JSON stands for JavaScript Object Notation
-
 # see how after all the changes that we made to the actual quiz data (i.e. the list of dictionaries with its respective
 # key:value pairs - only the main.py file cares about the changes of/to the implementation of the various modules used
 # in our quiz (game/project) - that is BIG ADVANTAGE of OOP
-
-# JUST KEEP GOING!
