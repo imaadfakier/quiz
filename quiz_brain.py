@@ -5,7 +5,6 @@ class QuizBrain:
     
     # ...
     
-    
     def __init__(self, question_list, question_number=0, score=0):
         self.current_question_number = question_number
         self.question_list = question_list
